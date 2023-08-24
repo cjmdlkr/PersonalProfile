@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>     
+
+<html>
+
+<head>
+    <title> My first web page </title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Davide Kerby">
+   <!-- <meta http-equiv="refresh" content="60">-->
+    <meta name="description" content="A little about me">
+    <meta name="keywords" content="teacher, programmer, about me">
+  <!--this sets view for devices like phones tocorrect size-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--style of the -->
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<hr>
+ <div id="box1" style="color: aliceblue;">
+
+  <h1 style="color: aliceblue;"> welcome to the web page</h1>
+  <!-- practicing comments /* */ in css-->
+  <br>
+  <!--image-->
+  <div id="myimg">
+    <a href="https://en.wikipedia.org/wiki/Zhangjiajie">
+    <img src= "trip.jpg" height = "250" alt="a photo from our trip to Zhangjiajie" title = "holiday photo" >
+    </a>
+   
+
+    <p> this is my sample paragraph text</p>
+<br>
+<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum obcaecati quaerat fuga culpa eaque illum deleniti, architecto quibusdam veritatis aut placeat dicta magnam ullam, quasi nesciunt amet inventore tenetur animi!</p>
+
+
+<!--my teaching info-->
+<h3 style="color:rgb(255, 255, 255);"> <ins>teacher intro</ins> </h3>
+<p style="color: rgb(255, 255, 255);"> <mark>This </mark>is how I introduce <b>myself</b> to new students</p>
+<p style="color: rgb(255, 255, 255);">I tell students about my <b>history</b>, working in China
+    my <b>hobbies</b> and my <b>teaching style</b>. 
+</p>
+</div>
+<!--video-->
+<div id="myvideo">
+    <video controls src="teacher intro.mp4" width="350" alt="teaching intro" title="teaching intro video">    
+    </video>
+</div>
+ <h4><ins>The important parts of language learning</ins></h4>   
+ 
+ <!--list about learning langs-->
+ <dl style="color: rgb(255, 255, 255);">
+
+ <dt>Vocabulary </dt><dd>- Use a flash card app like Memrise. ...</dd>
+ <dt>Speaking</dt> <dd>-Talk to people. ..</dd>
+ <dt>Listening </dt> <dd>-See above. ...</dd> 
+ <dt>Grammar </dt> <dd>-Get a textbook. ...</dd>
+ <dt>Reading </dt> <dd>-Your grammar textbook should have passages to read. ...</dd>
+ <dt>Writing </dt> <dd>-Get extra practice on vocabulary by making sentences using new words.</dd>
+
+</dl>
+<!--table-->
+
+<h4><ins>Working hours</ins></h4>
+
+<!--working hours table-->
+<table bgcolor="black" width="600">
+    <tr style="color:azure" align="center">
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+    </tr>
+    <tr bgcolor="grey"align="center">
+    <td>8-19</td>
+    <td>8-19</td>
+    <td>8-19</td>
+    <td>8-19</td>
+    <td>8-19</td>
+    <td>9-14</td>
+    <td>9-14</td>
+    </tr>
+
+</table>
+</div><!--text color end-->
+
+<!--button decide later about style etc usualy in js-->
+<!--<button onclick=""></button>-->
+
+
+<div id="boxform">
+    <form action="action_page.php" method="post">
+
+            <div>
+                <label  style="color:antiquewhite" for="fname">first name:</label>
+                <input  type="text" id="fname" placeholder="First name"required>
+            </div>
+            
+            <div>
+                <label style="color:antiquewhite" for="lname">last name:</label>
+                <input  type="text" id="lname" placeholder="Last name"required>
+            </div>
+
+            <div>
+                <label style="color:antiquewhite" for="bdate">birth date:</label>
+                <input  type="date" id="bdate" name="bdate">
+            </div>
+
+            <div style="color:antiquewhite">
+               <label for="title">title:</label> 
+                <label>Mrs.</label>
+                <input type="radio" id="Mrs." name="title" value="Mrs.">
+
+                <label>Mr.</label>
+                <input type="radio" id="Mr." name="title" value="Mr.">
+
+                <label>Prefer not to say.</label>
+                <input type="radio"id="N/A." name="title" value="prefer not to say.">
+            </div>
+
+            <br>
+
+            <div>
+                <input type="reset"> 
+            
+                <input type="submit"> 
+            </div>
+    </form>
+</div>
+</body>
+</html>

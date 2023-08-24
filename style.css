@@ -1,0 +1,53 @@
+body{
+    /*
+    background: linear-gradient(to right,purple, blue);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+    background-image: url("flowerbg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+h1, h4{
+    color: white;
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(190, 190, 190, 0.295));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{ 
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(190, 190, 190, 0.295));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+    font-family: "Pacifico", sans-serif;
+}
+#temp1{
+    color:aqua
+}
+form{
+    background: linear-gradient(to right,rgb(0, 0, 0), rgb(190, 190, 190, 0.295));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+dl{
+    background: linear-gradient(to right,rgb(0, 0, 0), rgba(190, 190, 190, 0.295));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:white;
+}
+#box1{
+font-size: 25px;
+padding: 10%;
+}
+#boxform{
+    font-size: 15px;
+    padding: 150px;
+    background: black;
+}
+#myvideo, #myimg{
+    padding: 100px;
+}
